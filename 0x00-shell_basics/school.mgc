@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "0 string SCHOOL School data" > school.mgc
+head -c 6 "$1" | grep -q SCHOOL
