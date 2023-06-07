@@ -1,2 +1,2 @@
 #!/bin/bash
-head -c 6 "$1" | grep -q SCHOOL
+file -i *
